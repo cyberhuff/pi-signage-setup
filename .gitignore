@@ -1,0 +1,15 @@
+# Deployment settings, browser data, logs, and backups stay local.
+.config/
+.local/
+backups/
+backup-*/
+*.log
+*.previous
+.env
+.env.*
+url
+url.new
+rotation
+*.zip
+__pycache__/
+.DS_Store
